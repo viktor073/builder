@@ -1,0 +1,21 @@
+{
+    "name": "media/Database",
+    "description": "SQL builder",
+    "license": "GL",
+    "authors": [
+        {
+            "name": "viktor073",
+            "email": "viktor_karyakin@mail.ru"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./src",
+            "Core\\": "./core",
+            "SqlBuilder\\": "./sqlBuilder"
+        }
+    }
+}
